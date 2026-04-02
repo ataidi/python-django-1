@@ -5,3 +5,6 @@ def homepage(request):
 
 def About(request):
     return HttpResponse("This is my About us page")
+
+def Contact(request):
+    return HttpResponse("this is my contact page")
